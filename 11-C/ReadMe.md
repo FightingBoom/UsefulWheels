@@ -1,6 +1,11 @@
 # 1 环境说明
 
-## 1.1 VSCode 环境
+## 1.1 开发环境
+
+### 1.1.1 Windows 环境
+使用 Windows 10 专业版
+
+### 1.1.2 VSCode 环境
 使用 MinGW 编译器，版本如下：
 ```shell
 C:\Users\zhaochen>gcc --version
