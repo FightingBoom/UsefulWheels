@@ -17,4 +17,5 @@ int main(void)
     ucResult = BcdToHex(ucResult);
     printf("ucResult = 0x%02X\n", ucResult);
 
+    return 0;
 }
