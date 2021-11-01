@@ -1,5 +1,5 @@
-#ifndef __CPPWHEELS_SINGLEFILE_H__
-#define __CPPWHEELS_SINGLEFILE_H__
+#ifndef __CPPWHEELS_STRING_H__
+#define __CPPWHEELS_STRING_H__
 
 #include <iostream>
 #include <string>
