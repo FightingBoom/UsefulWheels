@@ -1,5 +1,5 @@
-#ifndef __INCLUDE_H__
-#define __INCLUDE_H__
+#ifndef __BASICINCLUDE_H__
+#define __BASICINCLUDE_H__
 
 #include <iostream>
 #include <string>
