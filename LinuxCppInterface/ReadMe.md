@@ -55,3 +55,18 @@ gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)
 zhaoc@ubuntu2004:~$
 ```
 
+## 1.3 编译命令
+
+由于目前文件较少，因此直接采用 g++ 的方式编译
+
+```shell
+zhaoc@ubuntu2004:~/09-GitRepository/UsefulWheels/LinuxCppInterface$ g++ ModuleTest.cpp CppWheels_String.cpp 
+zhaoc@ubuntu2004:~/09-GitRepository/UsefulWheels/LinuxCppInterface$ ./a.out 
+sInData = Hello_Word_zhaochen
+vOutData.size = 3
+vOutData[0] = Hello
+vOutData[1] = Word
+vOutData[2] = zhaochen
+zhaoc@ubuntu2004:~/09-GitRepository/UsefulWheels/LinuxCppInterface$
+```
+
