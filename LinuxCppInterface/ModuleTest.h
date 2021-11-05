@@ -2,18 +2,19 @@
 #define __MODULETEST_H__
 
 /*
- * 描述：以特定字符sCharacter，对字符串sInData进行分割，结果放入vOutData中
- * 举例：
- *      sInData: "111111_222222_333333"
- *      sCharacter: "_"
- *      vOutData: "111111","222222","333333"
+ * 描述：字符串分割测试
  */
 void Test_SplitString();
 
 /*
- * 描述：类型大小计算
+ * 描述：变量类型大小计算
  */
 void Test_TypeSizeProcess();
+
+/*
+ *
+ */
+void Test_LinuxCmdExecute();
 
 
 #endif

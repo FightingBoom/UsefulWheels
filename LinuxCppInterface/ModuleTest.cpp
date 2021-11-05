@@ -1,13 +1,23 @@
-#include "BasicInclude.h"
 #include "ModuleTest.h"
-#include "CppWheels_String.h"
+#include "BasicInclude.h"
 #include "Linuxcpptypes.h"
+
+#include "CppWheels_String.h"   // string 测试接口头文件
+#include "CppWheels_Other.h"    // 未归类测试头文件
+
 
 int main()
 {
-    Test_SplitString();
+#if 0
 
-    Test_TypeSizeProcess();
+    Test_SplitString();     // 字符串分割测试函数
+    Test_TypeSizeProcess(); // 类型大小测试函数
+
+#else
+
+    Test_LinuxCmdExecute(); // linux命令执行测试函数
+
+#endif
 
     return 0;
 }
@@ -71,4 +81,18 @@ void Test_TypeSizeProcess()
 
     printf("----------------Test_TypeSizeProcess End\n\n");
 }
+
+
+void Test_LinuxCmdExecute()
+{
+    printf("\n----------------Test_LinuxCmdExecute Start\n");
+
+    char cBuf[1024] = {0};
+    ExecuteCMD("lsusb", cBuf);  // 执行lsusb命令进行测试
+
+    printf("CMD Result: \n%s\n", cBuf);
+
+    printf("----------------Test_LinuxCmdExecute End\n\n");
+}
+
 

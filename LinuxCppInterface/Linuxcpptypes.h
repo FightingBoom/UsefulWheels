@@ -5,6 +5,8 @@
 环境：Linux ubuntu2004 5.11.0-38-generic；
 G++版本：gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
 ----------------Test_TypeSizeProcess Start
+sizeof(BOOL) = 1
+----------------
 sizeof(xbyte_t) = 1
 sizeof(xint8_t) = 1
 sizeof(xuint8_t) = 1

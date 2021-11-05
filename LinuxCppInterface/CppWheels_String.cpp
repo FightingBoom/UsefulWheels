@@ -1,5 +1,6 @@
 #include "CppWheels_String.h"
 
+
 void SplitString(const std::string & sInData, std::vector<std::string> & vOutData, const std::string & sCharacter)
 {
     std::string::size_type pos1, pos2;  // string特殊偏移量类型
