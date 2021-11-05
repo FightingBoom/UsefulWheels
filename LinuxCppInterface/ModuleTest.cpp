@@ -40,6 +40,10 @@ void Test_TypeSizeProcess()
 {
     printf("\n----------------Test_TypeSizeProcess Start\n");
 
+    printf("sizeof(BOOL) = %ld\n", sizeof(BOOL));
+
+    printf("----------------\n");
+
     printf("sizeof(xbyte_t) = %ld\n", sizeof(xbyte_t));
     printf("sizeof(xint8_t) = %ld\n", sizeof(xint8_t));
     printf("sizeof(xuint8_t) = %ld\n", sizeof(xuint8_t));

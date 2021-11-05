@@ -26,6 +26,9 @@ sizeof(xpvoid_t) = 8
 ----------------Test_TypeSizeProcess End
 */
 
+// bool
+typedef bool BOOL;
+
 // char
 typedef char xbyte_t;
 
