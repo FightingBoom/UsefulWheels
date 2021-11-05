@@ -1,6 +1,30 @@
 #ifndef __LINUXCPP_TYPES_H__
 #define __LINUXCPP_TYPES_H__
 
+/*
+环境：Linux ubuntu2004 5.11.0-38-generic；
+G++版本：gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+----------------Test_TypeSizeProcess Start
+sizeof(xbyte_t) = 1
+sizeof(xint8_t) = 1
+sizeof(xuint8_t) = 1
+----------------
+sizeof(xint16_t) = 2
+sizeof(xuint16_t) = 2
+sizeof(xint32_t) = 4
+sizeof(xuint32_t) = 4
+sizeof(xint64_t) = 8
+sizeof(xuint64_t) = 8
+sizeof(xtime32_t) = 4
+sizeof(xtime64_t) = 8
+----------------
+sizeof(xsingle_t) = 4
+sizeof(xdouble_t) = 8
+----------------
+sizeof(xhandle_t) = 8
+sizeof(xpvoid_t) = 8
+----------------Test_TypeSizeProcess End
+*/
 
 // char
 typedef char xbyte_t;
