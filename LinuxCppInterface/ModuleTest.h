@@ -12,9 +12,15 @@ void Test_SplitString();
 void Test_TypeSizeProcess();
 
 /*
- *
+ * 执行linux命令，并捕获命令执行结果
  */
 void Test_LinuxCmdExecute();
+
+/*
+ * 执行linux命令，并捕获命令执行结果
+ * 返回值类型为string
+ */
+void Test_SystemWithResult();
 
 
 #endif

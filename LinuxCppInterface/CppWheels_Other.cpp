@@ -32,3 +32,16 @@ xint32_t ExecuteCMD(const xbyte_t *cmd, xbyte_t *result)
 
     return iRet;
 }
+
+
+std::string SystemWithResult(const char *cmd)
+{
+    char cBuf[1024] = {0};
+    std::string sCmdResult;
+
+    ExecuteCMD(cmd, cBuf);
+    sCmdResult = std::string(cBuf);
+    printf("CMD Result: \n%s\n", sCmdResult.c_str());
+
+    return sCmdResult;
+}

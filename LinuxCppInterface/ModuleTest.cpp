@@ -9,14 +9,11 @@
 int main()
 {
 #if 0
-
-    Test_SplitString();     // 字符串分割测试函数
-    Test_TypeSizeProcess(); // 类型大小测试函数
-
+    Test_SplitString();         // 字符串分割测试函数
+    Test_TypeSizeProcess();     // 类型大小测试函数
+    Test_LinuxCmdExecute();     // linux命令执行测试函数
 #else
-
-    Test_LinuxCmdExecute(); // linux命令执行测试函数
-
+    Test_SystemWithResult();    // linux命令执行测试函数，返回值为string类型
 #endif
 
     return 0;
@@ -96,3 +93,12 @@ void Test_LinuxCmdExecute()
 }
 
 
+void Test_SystemWithResult()
+{
+    printf("\n----------------Test_SystemWithResult Start\n");
+
+    char a[] = "dmesg";
+    SystemWithResult(a);
+
+    printf("----------------Test_SystemWithResult End\n\n");
+}
