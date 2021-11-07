@@ -1,4 +1,9 @@
+# 单个可执行文件
+ModuleTest
+
+# 带后缀可执行文件
 *.exe
 *.out
 
+# 需忽略的文件夹
 .vscode/
