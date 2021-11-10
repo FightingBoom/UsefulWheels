@@ -1,5 +1,5 @@
 main: ModuleTest.o CppWheels_Other.o CppWheels_String.o
-	g++ -o ModuleTest ModuleTest.o CppWheels_Other.o CppWheels_String.o
+	g++ -o moduleTest ModuleTest.o CppWheels_Other.o CppWheels_String.o
 	rm *.o
 
 ModuleTest.o: ModuleTest.cpp
@@ -12,4 +12,4 @@ CppWheels_String.o: CppWheels_String.cpp
 	g++ -c CppWheels_String.cpp
 
 clean:
-	rm ModuleTest
+	rm moduleTest

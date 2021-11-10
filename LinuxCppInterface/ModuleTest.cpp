@@ -12,8 +12,9 @@ int main()
     Test_SplitString();         // 字符串分割测试函数
     Test_TypeSizeProcess();     // 类型大小测试函数
     Test_LinuxCmdExecute();     // linux命令执行测试函数
-#else
     Test_SystemWithResult();    // linux命令执行测试函数，返回值为string类型
+#else
+    Test_TypeSizeProcess();     // 类型大小测试函数
 #endif
 
     return 0;
@@ -46,6 +47,13 @@ void Test_SplitString()
 void Test_TypeSizeProcess()
 {
     printf("\n----------------Test_TypeSizeProcess Start\n");
+
+    printf("----------------\n");
+
+    printf("sizeof(signed) = %ld\n", sizeof(signed));
+    printf("sizeof(unsigned) = %ld\n", sizeof(unsigned));
+
+    printf("----------------\n");
 
     printf("sizeof(BOOL) = %ld\n", sizeof(BOOL));
 
