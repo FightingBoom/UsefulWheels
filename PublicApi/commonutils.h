@@ -7,4 +7,4 @@
 inline double PUB_SDK_Square(double x) { return x * x; }
 
 
-#endif // !1
+#endif
