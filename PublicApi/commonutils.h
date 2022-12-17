@@ -2,9 +2,10 @@
 #define _COMMONUTILS_H_
 
 /**
- * @brief 计算参数的平方（后续应考虑用模板）
+ * @brief 计算参数的平方
  */
-inline double PUB_SDK_Square(double x) { return x * x; } // TODO: 模板
+template <typename T>
+inline T PUB_SDK_Square(T x) { return x * x; }
 
 
 #endif
