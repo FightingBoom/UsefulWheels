@@ -1,6 +1,5 @@
 # 单个可执行文件
-moduleTest
-ModuleTest
+
 
 # 带后缀可执行文件
 *.exe
