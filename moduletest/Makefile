@@ -1,6 +1,8 @@
 test: main.o
 	g++ -o test main.o
-	del *.o
+	rm *.o
+	# del *.o
 
 clean:
-	del test *.o
+	rm test *.o
+	# del test *.o
