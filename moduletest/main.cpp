@@ -16,6 +16,13 @@ int main()
     printf("min %d\n", UWC_MIN(-10, -50));
     printf("min %d\n", UWC_MIN(10, 40));
 
+    printf("------------------------\n");
+    printf("max %d\n", UWC_MAX(0, 1));
+    printf("max %d\n", UWC_MAX(0, -1));
+    printf("max %d\n", UWC_MAX(0, 0));
+    printf("max %d\n", UWC_MAX(-10, -50));
+    printf("max %d\n", UWC_MAX(10, 40));
+
     printf("common define test end...\n");
     // while(1) ; // Windows环境CMD窗口测试，保持显示
 }
