@@ -6,5 +6,6 @@
 
 // UsefulWheels Common
 #define UWC_MIN(a, b) (((a) <= (b)) ? (a) : (b))
+#define UWC_MAX(a, b) (((a) >= (b)) ? (a) : (b))
 
 #endif
