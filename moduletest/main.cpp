@@ -75,6 +75,12 @@ int main()
     // 英里/小时 -> 千米/小时
     MphToKphDemo();
 
+    printf("number to string:%s\n", NumberToString(6).c_str());
+    printf("number to string:%s\n", NumberToString(6.6).c_str());
+    printf("number to string:%s\n", NumberToString(0).c_str());
+    printf("number to string:%s\n", NumberToString(-100).c_str());
+    printf("number to string:%s\n", NumberToString(10000).c_str());
+
     printf("common define test end...\n");
     // while(1) ; // Windows环境CMD窗口测试，保持显示
 }
