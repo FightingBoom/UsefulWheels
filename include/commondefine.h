@@ -24,6 +24,7 @@
 template <typename T>
 std::string NumberToString(T num)
 {
+    printf("c++: %ld\n", __cplusplus);
 #if __cplusplus >= 201103L
     // C++11 支持特性
     printf("support C++11\n");
